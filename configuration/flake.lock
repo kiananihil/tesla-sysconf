@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794042290,
+        "narHash": "sha256-ziZn2PvCJE5JEEpqTdxXwJpPB+L3YqoCpTAMCzyaP3U=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "f4a03c008967841f2a0b3cb7c436fc6fc31671f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1775036866,
+        "narHash": "sha256-ZojAnPuCdy657PbTq5V0Y+AHKhZAIwSIT2cb8UgAz/U=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6201e203d09599479a3b3450ed24fa81537ebc4e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "steamcmd-servers": "steamcmd-servers"
+      }
+    },
+    "steamcmd-servers": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1789787626,
+        "narHash": "sha256-GqCd46wA4XJevw7jWX3cBGn51xTayFZru3fCQPLjmxI=",
+        "owner": "kagurazaka-ayano",
+        "repo": "steamcmd-servers",
+        "rev": "d28439e5233038ac4bbe4897ace0318552069309",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kagurazaka-ayano",
+        "repo": "steamcmd-servers",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
